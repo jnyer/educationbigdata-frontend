@@ -12,6 +12,9 @@
     "echarts": "^5.3.3",
     "element-plus": "^2.2.6",
     "element-ui": "^2.15.9",
+    "node-sass": "^7.0.1",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.16"
   },
@@ -38,7 +41,7 @@
     },
     "rules": {
       "no-mixed-spaces-and-tabs": "off",
-	  "no-unused-vars": "off"
+      "no-unused-vars": "off"
     }
   },
   "browserslist": [

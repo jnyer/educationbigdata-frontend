@@ -9,19 +9,19 @@ const routes = [{ //登陆界面
 	component: () => import('@/pages/AreaLogin.vue')
 },{
 	path: '/area',
-	name: 'areadata',
+	name: 'AreaData',
 	component: ()=> import('@/pages/AreaData.vue')
 },{
 	path: '/school',
-	name: 'schooldata',
+	name: 'SchoolData',
 	component: ()=> import('@/pages/SchoolData.vue')
 },{
 	path: '/teacher',
-	name: 'teacherdata',
+	name: 'TeacherData',
 	component: ()=> import('@/pages/TeacherData.vue')
 },{
 	path: '/student',
-	name: 'studentdata',
+	name: 'StudentData',
 	component: ()=> import('@/pages/StudentData.vue')
 }]
 

@@ -6,23 +6,23 @@ import {
 const routes = [{ //登陆界面
 	path: '/',
 	name: 'login',
-	component: () => import('@/pages/AreaLogin.vue')
+	component: () => import('@/pages/Login/AreaLogin.vue')
 },{
 	path: '/area',
 	name: 'AreaData',
-	component: ()=> import('@/pages/AreaData.vue')
+	component: ()=> import('@/pages/LeaderCockpit/LeaderCockpit.vue')
 },{
 	path: '/school',
 	name: 'SchoolData',
-	component: ()=> import('@/pages/SchoolData.vue')
+	component: ()=> import('@/pages/School/SchoolData.vue')
 },{
 	path: '/teacher',
 	name: 'TeacherData',
-	component: ()=> import('@/pages/TeacherData.vue')
+	component: ()=> import('@/pages/Teacher/TeacherData.vue')
 },{
 	path: '/student',
 	name: 'StudentData',
-	component: ()=> import('@/pages/StudentData.vue')
+	component: ()=> import('@/pages/Student/StudentData.vue')
 }]
 
 const router = createRouter({

@@ -178,7 +178,7 @@ export default {
   margin-top: -10px;
   margin-left: -10px;
   padding: 20px;
-  background-image: url('../assets/pictures/login-pic/background.png');
+  background-image: url('../../assets/pictures/login-pic/background.png');
 }
 
 /* 顶部 bar */
@@ -215,8 +215,9 @@ export default {
 .title-image {
   margin: auto;
   width: 92%;
-  height: 50px;
-  background-image: url('../assets/pictures/login-pic/title/矩形 2@1x.png');
+  height: 60px;
+  background-image: url('../../assets/pictures/login-pic/title/矩形 2@1x.png');
+  background-size: 100% 60px;
   display: flex;
 }
 

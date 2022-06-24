@@ -21,8 +21,14 @@ const routes = [{ //登陆界面
 	component: ()=> import('@/pages/Teacher/TeacherData.vue')
 },{
 	path: '/student',
-	name: 'StudentData',
-	component: ()=> import('@/pages/Student/StudentData.vue')
+	name: 'StudentHome',
+	redirect: '/student/information',
+	component: ()=> import('@/pages/Student/StudentHome.vue'),
+	children: [
+		{path:'/information',component: ()=>import('@/pages/Student/Content/StudentInform.vue')},
+		{path:'/study',component: ()=>import('@/pages/Student/Content/StudentStudy.vue')},
+		{path:'/sport',component: ()=>import('@/pages/Student/Content/StudentSport.vue')},
+	]
 }]
 
 const router = createRouter({
